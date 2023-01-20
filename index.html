@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>자바스크립트</title> 
+
+  <link rel="stylesheet" href="./styles/index.css">
+  
+   
+</head>
+<body>
+  <div id="root">
+    <header><h1>폭탄게임</h1></header>
+    <main id="content">
+      <section id="board">
+        <div class="boardRow">
+          <div class="boardBox" id="box1" onclick="show(1);">1</div>
+          <div class="boardBox" id="box2" onclick="show(2);">2</div>
+          <div class="boardBox" id="box3" onclick="show(3);">3</div>
+        </div>
+        <div class="boardRow">
+          <div class="boardBox" id="box4" onclick="show(4);">4</div>
+          <div class="boardBox" id="box5" onclick="show(5);">5</div>
+          <div class="boardBox" id="box6" onclick="show(6);">6</div>
+        </div>
+        <div class="boardRow">
+          <div class="boardBox" id="box7" onclick="show(7);">7</div>
+          <div class="boardBox" id="box8" onclick="show(8);">8</div>
+          <div class="boardBox" id="box9" onclick="show(9);">9</div>
+        </div>       
+      </section>
+      <section id="bt">
+        <button id="bt1" onclick="boxShuffle();">폭탄섞기</button>
+      </section>
+      <section id="msg">
+      </section>
+    </main>
+  </div>  
+</body>
+</html>
