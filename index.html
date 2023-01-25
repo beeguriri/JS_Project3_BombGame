@@ -3,18 +3,18 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-  <title>자바스크립트</title> 
-
-  <link rel="stylesheet" href="./styles/index.css">
   
-  <script src="./scripts/str.js"></script>
+  <link rel="stylesheet" href="./styles/index.css">
+  <script src="./scripts/index.js"></script>
+
+  <title>자바스크립트</title> 
    
 </head>
 <body>
   <div id="root">
     <header><h1>폭탄게임</h1></header>
     <main id="content">
-      <section id="board">
+      <section id="board">  <!--보드영역 (숫자)-->
         <div class="boardRow">
           <div class="boardBox" id="box1" onclick="show(1);">1</div>
           <div class="boardBox" id="box2" onclick="show(2);">2</div>
@@ -31,10 +31,10 @@
           <div class="boardBox" id="box9" onclick="show(9);">9</div>
         </div>       
       </section>
-      <section id="bt">
+      <section id="bt">   <!--폭탄섞기 버튼-->
         <button id="bt1" onclick="boxShuffle();">폭탄섞기</button>
       </section>
-      <section id="msg">
+      <section id="msg">  <!--메세지 영역-->
       </section>
     </main>
   </div>  
